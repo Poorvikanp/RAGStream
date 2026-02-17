@@ -1,0 +1,60 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8989
+  Network URL: http://10.200.250.26:8989
+
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\poorv\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\r |
+| untime\scriptrunner\exec_code.py:129 in exec_func_with_error_handling                |
+|                                                                                      |
+| C:\Users\poorv\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\r |
+| untime\scriptrunner\script_runner.py:669 in code_to_exec                             |
+|                                                                                      |
+| D:\RAG_Project\app.py:18 in <module>                                                 |
+|                                                                                      |
+|    15     if 'OPENAI_API_KEY' in api_creds:                                          |
+|    16         os.environ['OPENAI_API_KEY'] = api_creds['OPENAI_API_KEY']             |
+|    17                                                                                |
+| >  18 from langchain_openai import ChatOpenAI, OpenAIEmbeddings                      |
+|    19 from langchain_core.prompts import ChatPromptTemplate                          |
+|    20 from langchain_community.chat_message_histories import StreamlitChatMessageHis |
+|    21 from langchain_core.callbacks.base import BaseCallbackHandler                  |
++--------------------------------------------------------------------------------------+
+ModuleNotFoundError: No module named 'langchain_openai'
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\poorv\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\r |
+| untime\scriptrunner\exec_code.py:129 in exec_func_with_error_handling                |
+|                                                                                      |
+| C:\Users\poorv\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\r |
+| untime\scriptrunner\script_runner.py:669 in code_to_exec                             |
+|                                                                                      |
+| D:\RAG_Project\app.py:18 in <module>                                                 |
+|                                                                                      |
+|    15     if 'OPENAI_API_KEY' in api_creds:                                          |
+|    16         os.environ['OPENAI_API_KEY'] = api_creds['OPENAI_API_KEY']             |
+|    17                                                                                |
+| >  18 from langchain_openai import ChatOpenAI, OpenAIEmbeddings                      |
+|    19 from langchain_core.prompts import ChatPromptTemplate                          |
+|    20 from langchain_community.chat_message_histories import StreamlitChatMessageHis |
+|    21 from langchain_core.callbacks.base import BaseCallbackHandler                  |
++--------------------------------------------------------------------------------------+
+ModuleNotFoundError: No module named 'langchain_openai'
++------------------------- Traceback (most recent call last) --------------------------+
+| C:\Users\poorv\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\r |
+| untime\scriptrunner\exec_code.py:129 in exec_func_with_error_handling                |
+|                                                                                      |
+| C:\Users\poorv\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\r |
+| untime\scriptrunner\script_runner.py:669 in code_to_exec                             |
+|                                                                                      |
+| D:\RAG_Project\app.py:18 in <module>                                                 |
+|                                                                                      |
+|    15     if 'OPENAI_API_KEY' in api_creds:                                          |
+|    16         os.environ['OPENAI_API_KEY'] = api_creds['OPENAI_API_KEY']             |
+|    17                                                                                |
+| >  18 from langchain_openai import ChatOpenAI, OpenAIEmbeddings                      |
+|    19 from langchain_core.prompts import ChatPromptTemplate                          |
+|    20 from langchain_community.chat_message_histories import StreamlitChatMessageHis |
+|    21 from langchain_core.callbacks.base import BaseCallbackHandler                  |
++--------------------------------------------------------------------------------------+
+ModuleNotFoundError: No module named 'langchain_openai'

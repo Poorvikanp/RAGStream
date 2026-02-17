@@ -1,0 +1,12 @@
+langchain==0.3.11
+langchain-openai==0.2.12
+langchain-community==0.3.11
+langchain-huggingface==0.0.1
+streamlit==1.32.2
+pyngrok==7.2.2
+PyMuPDF==1.24.0
+pandas
+pyyaml
+numpy
+sentence-transformers
+requests
