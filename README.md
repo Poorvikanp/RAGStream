@@ -1,4 +1,4 @@
-# File QA RAG Chatbot
+QA RAG Chatbot
 
 This repository contains a Streamlit-based RAG (Retrieval-Augmented Generation) app adapted from the notebook `End to end RAG Application Development with LangChain and Streamlit.ipynb`.
 
