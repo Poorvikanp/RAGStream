@@ -28,12 +28,4 @@ pip install -r requirements.txt
 .\run_app.bat
 ```
 
-4. (Optional) Start ngrok tunnel:
 
-```bash
-python ngrok_tunnel.py
-```
-
-Notes:
-- The code is a direct extraction from the notebook; you may need to adjust package versions or import paths depending on your environment.
-- The app expects uploaded PDF files via the Streamlit sidebar. The vector DB will persist in `./chroma_db`.
